@@ -1,4 +1,4 @@
-const withTM = require("next-transpile-modules")(["ui"]);
+const withTM = require("next-transpile-modules")(["@rs-client/design-system"]);
 
 module.exports = withTM({
   reactStrictMode: true,
